@@ -1,0 +1,179 @@
+
+.text_left h1{
+    font-weight: bold;
+}
+.but button{
+    padding: 10px 40px;
+    border-radius: 28px;
+    border: 2px solid black;
+    font-weight: bold;
+    
+}
+.but button:hover{
+    background-color: black ;
+    color: white;
+    transition: 0.5s;
+}
+@media only screen and (min-width: 600px) {
+    .text_left{
+        padding-left: 163px;
+        margin-top: 100px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .text_left{
+        padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .mdl_img{
+        padding-left:120px;
+        
+    }
+  }
+.top_bg{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.blur{
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 100%
+}
+
+.mdl_text h1{
+    font-weight: bold;
+    position: absolute;
+    top: 46px;
+    left: -53px;
+}
+.mdl_text h3{
+  font-weight: bold;
+  margin-top: 191px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+.mdl_text p{
+  padding-left: 50px;
+}
+.mdl_img h1{
+  position: absolute;
+  top: 59px;
+    left: 82px;
+}
+@media only screen and (min-width: 600px) {
+  .mdl_img h1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mdl_text h1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mdl_text h3{
+    margin-top: 0px;
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mdl_text p{
+    margin-top: 0px;
+    padding-left: 10px;
+  }
+}
+.mdl_img{
+  background-color: rgba(255, 255, 255, 0.80);
+
+}
+.blur_2{
+  background-color: rgba(255, 255, 255, 0.80);
+ height: 100%;
+ width: 117%;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+.con {
+  text-align: center;
+  
+}
+.one{
+  font-size:100px;
+  font-weight: bold;
+  color: #FFEAE8;
+}
+
+.onep{
+  font-weight: bold;
+  position: absolute;
+  top: 76px;
+    left: 62px;
+}
+@media only screen and (max-width: 600px) {
+  .letter{
+    margin-left: 50px;
+  }
+}
+.butn button{
+  padding: 10px 40px;
+    border-radius: 28px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.butn button:hover{
+  background-color: black ;
+  color: white;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .scan{
+    display: none;
+  }
+}
+.pic_last{
+  height: 311px;
+    width: 535px;
+}
+@media only screen and (max-width: 600px) {
+  .img_bg{
+     background-color: white;
+  }
+}
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
